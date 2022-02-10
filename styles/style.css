@@ -38,16 +38,13 @@ main {
 
 .cont-title {
     margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .title {
      height: 4rem;
      background-color: burlywood;
-}
-
-.cont-img {
-    margin-left: .2rem;
-    margin-right: .2rem;
 }
 
 .images {
@@ -56,6 +53,7 @@ main {
 }
 
 /* About */
+
 
 .cont-about {
     background-color: var(--light-green);
@@ -77,26 +75,13 @@ main {
 /* Footer */
 
 footer {
-    height: 30rem;
     background-color: var(--light-black);
 }
 
-.footing {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    height: 25rem;
-    
-}
-
 .pie-foot {
-    align-self: flex-end;
     background-color: rgb(44, 62, 80);
-    height: 5rem;
 }
 
 .fot-items {
-    background-color: darkgreen;
-    margin-top: 2rem;
-    height: 5rem;
+    background-color: rgb(201, 86, 139);
 }
-
