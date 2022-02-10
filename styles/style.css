@@ -10,8 +10,11 @@ html {
     --padding-cont: 2rem;
 }
 
+/* Header */
+
+
 header {
-    height: 20rem;
+    height: 25rem;
     background-color: var(--light-green);
     margin-bottom: var(--padding-cont);
 }
@@ -21,9 +24,16 @@ header .nav-links  {
     background-color: var(--light-black);
 }
 
+/* Main */
+
+/* Images */
+
 .cont-image-title {
-    padding-left: var(--padding-cont);
-    padding-right: var(--padding-cont);
+    margin-bottom: var(--padding-cont);
+}
+
+.cont-title {
+    margin-bottom: 1rem;
 }
 
 .title {
@@ -31,3 +41,35 @@ header .nav-links  {
      background-color: burlywood;
 }
 
+.cont-img {
+    margin-left: .2rem;
+    margin-right: .2rem;
+}
+
+.images {
+    background-color: aqua;
+    height: 20rem;
+}
+
+/* About */
+
+.cont-about {
+    background-color: var(--light-green);
+    height: 30rem;
+    margin-bottom: var(--padding-cont);
+}
+
+/* Contact Me */
+
+.cont-contact-me {
+    margin-bottom: 1rem;
+}
+
+.title-contact-me {
+    padding-bottom: 1rem;
+}
+
+.input {
+    height: 25rem;
+    background-color: brown;
+}
