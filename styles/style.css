@@ -5,7 +5,7 @@
 }
 
 html {
-    --light-black: rgb(44, 62, 80);
+    --light-black: rgb(58, 84, 109);
     --light-green: rgb(26, 188, 156);
     --padding-cont: 2rem;
 }
@@ -25,6 +25,10 @@ header .nav-links  {
 }
 
 /* Main */
+
+main {
+    margin-bottom: 1rem;
+}
 
 /* Images */
 
@@ -61,10 +65,6 @@ header .nav-links  {
 
 /* Contact Me */
 
-.cont-contact-me {
-    margin-bottom: 1rem;
-}
-
 .title-contact-me {
     padding-bottom: 1rem;
 }
@@ -73,3 +73,30 @@ header .nav-links  {
     height: 25rem;
     background-color: brown;
 }
+
+/* Footer */
+
+footer {
+    height: 30rem;
+    background-color: var(--light-black);
+}
+
+.footing {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 25rem;
+    
+}
+
+.pie-foot {
+    align-self: flex-end;
+    background-color: rgb(44, 62, 80);
+    height: 5rem;
+}
+
+.fot-items {
+    background-color: darkgreen;
+    margin-top: 2rem;
+    height: 5rem;
+}
+
