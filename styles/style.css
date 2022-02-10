@@ -13,11 +13,21 @@ html {
 header {
     height: 20rem;
     background-color: var(--light-green);
-    padding-bottom: var(--padding-cont);
+    margin-bottom: var(--padding-cont);
 }
 
 header .nav-links  {
-    height: 2.5rem;
+    height: 3rem;
     background-color: var(--light-black);
+}
+
+.cont-image-title {
+    padding-left: var(--padding-cont);
+    padding-right: var(--padding-cont);
+}
+
+.title {
+     height: 4rem;
+     background-color: burlywood;
 }
 
