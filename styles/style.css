@@ -3,3 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html {
+    --light-black: rgb(44, 62, 80);
+    --light-green: rgb(26, 188, 156);
+    --padding-cont: 2rem;
+}
+
+header {
+    height: 20rem;
+    background-color: var(--light-green);
+    padding-bottom: var(--padding-cont);
+}
+
+header .nav-links  {
+    height: 2.5rem;
+    background-color: var(--light-black);
+}
+
