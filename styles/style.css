@@ -1,9 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 html {
     --light-black: rgb(58, 84, 109);
     --light-green: rgb(26, 188, 156);
@@ -14,21 +8,38 @@ html {
 
 
 header {
-    height: 25rem;
-    background-color: var(--light-green);
-    margin-bottom: var(--padding-cont);
+    background-color: var(--light-black);
 }
 
-header .nav-links  {
-    height: 3rem;
-    background-color: var(--light-black);
+header .row > :first-child {
+    background-color: beige;
+    height: 100%;
+}
+
+
+header .row > :last-child {
+    background-color: rgb(245, 0, 212);
+    height: 100%;
+}
+
+/* Jumbtron */
+
+.jumbotron {
+    background-color: gold;
+}
+
+.py-6 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 /* Main */
 
 main {
     margin-bottom: 1rem;
-}
+}    
+
+
 
 /* Images */
 
