@@ -1,37 +1,42 @@
-html {
+:root {
+    --bg-dark: rgb(255, 215, 0);
     --light-black: rgb(58, 84, 109);
     --light-green: rgb(26, 188, 156);
     --padding-cont: 2rem;
 }
 
+.small-bar-white {
+    display: inline-block;
+    width: 20%;
+    height: 2px;
+    background-color: white;
+
+}
+
 /* Header */
 
+.navbar-brand {
+    font-size: 2rem;
+}
 
 header {
     background-color: var(--light-black);
 }
 
-header .row > :first-child {
-    background-color: beige;
-    height: 100%;
-}
-
-
-header .row > :last-child {
-    background-color: rgb(245, 0, 212);
-    height: 100%;
-}
-
 /* Jumbtron */
 
 .jumbotron {
-    background-color: gold;
+    background-color: var(--light-green);
 }
 
 .py-6 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }  
+
+.pt-6 {
+    padding-top: 6rem;
+}
 
 
 
