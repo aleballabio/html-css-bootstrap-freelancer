@@ -43,6 +43,10 @@ header {
     background-color: var(--light-black);
 }
 
+.nav-link:hover {
+    color: white !important;
+}
+
 /* Jumbtron */
 
 .jumbotron {
@@ -71,21 +75,6 @@ header {
     background-color: rgb(204, 178, 163);
 }
 
-
-/* About Me */
-
-
-.cont-title {
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
-.title {
-     height: 4rem;
-     background-color: burlywood;
-}
-
 /* About */
 
 
@@ -95,14 +84,15 @@ header {
 
 /* Contact Me */
 
-.title-contact-me {
-    padding-bottom: 1rem;
+.btn-success, .btn-success:hover {
+    background-color: var(--light-green);
+    border-color: var(--light-green);
 }
 
-.input {
-    height: 25rem;
-    background-color: brown;
+.btn-success:hover {
+    opacity: .8;
 }
+
 
 /* Footer */
 
@@ -114,6 +104,19 @@ footer {
     background-color: rgb(44, 62, 80);
 }
 
-.fot-items {
-    background-color: rgb(201, 86, 139);
+.p-custom {
+    padding: .6rem .6rem;
+}
+
+.fs-custom {
+    font-size: .8rem;
+}
+
+.social {
+    width: 20px;
+}
+
+.link-success {
+    color: var(--light-green) !important;
+
 }

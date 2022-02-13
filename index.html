@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse ju justify-content-md-end" id="navbarNav">
                     <ul class="navbar-nav fs-6">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Features</a>
@@ -60,6 +60,7 @@
     </section>
 
     <!-- Portfolio -->
+    <!-- TODO Format Overlay with Hover -->
     <section class="my-5">
         <div class="container pb-2 text-dark">
             <div class="row">
@@ -140,56 +141,89 @@
             <div class="row pt-2">
                 <div class="col text-center">
                     <button type="button" class="btn btn-outline-light"><i
-                            class="fa-solid fa-download px-1"></i>Download</button>
+                            class="fa-solid fa-download px-1"></i>Download
+                    </button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="container-fluid cont-contact-me mb-4">
-        <div class="row title-contact-me">
-            <div class="col"></div>
-            <div class="col-5 title"></div>
-            <div class="col"></div>
-        </div>
+    <!-- Contact Me -->
 
-        <div class="row input-contact-me">
-            <div class="col"></div>
-            <div class="col-8 input"></div>
-            <div class="col"></div>
+    <section class="contact-me mb-4">
+        <div class="container pb-2 text-dark">
+            <div class="row pb-2">
+                <div class="col text-center">
+                    <h2 class="text-uppercase">Portfolio</h2>
+                    <div class="small-bar-black align-middle"></div>
+                    <i class="fa-solid fa-star px-2 align-middle"></i>
+                    <div class="small-bar-black align-middle"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-8">
+                    <label for="formControlInput" class="form-label">Name</label>
+                    <input class="form-control form-control-sm mb-2" type="text" aria-label=".form-control-sm">
+
+                    <label for="formControlInput" class="form-label">Email Adress</label>
+                    <input class="form-control form-control-sm mb-2" type="text" aria-label=".form-control-sm">
+
+                    <label for="formControlInput" class="form-label">Phone Number</label>
+                    <input class="form-control form-control-sm mb-2" type="text" aria-label=".form-control-sm">
+
+                    <label for="formControlInput" class="form-label">Message</label>
+                    <input class="form-control form-control-lg mb-2" type="text" aria-label=".form-control-sm">
+
+                    <button type="button" class="btn btn-success">Send</button>
+                </div>
+                <div class="col"></div>
+            </div>
         </div>
     </section>
-    </main>
+
+    <!-- Footing -->
 
     <footer class="text-white">
-        <div class="container-fluid">
-            <div class="container py-3">
-                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3">
-                    <div class="col gy-3">
-                        <div class="fot-items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo
-                            labore
-                            quos, corporis molestiae qui cum sit neque eaque, maiores ab nam nesciunt voluptates modi
-                            libero
-                            amet repellat quae temporibus?</div>
+        <div class="container py-3">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3">
+                <div class="col g-4">
+                    <div class="text-center fs-6 my-1">
+                        <p class="text-uppercase">Location</p>
+                        <p class="fs-custom">2215 John Daniel Drive Clark, MO 54243</p>
                     </div>
-                    <div class="col gy-3">
-                        <div class="fot-items"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse dicta
-                            eum, et
-                            velit in ducimus earum error ut minus accusamus quibusdam animi tenetur, sed quasi ipsum
-                            nisi
-                            adipisci praesentium. Cumque?</div>
+                </div>
+                <div class="col g-4">
+                    <div class="text-center fs-6 my-2">
+                        <p class="text-uppercase">Around the Web</p>
+                        <div>
+                            <!-- TODO format buttons -->
+                            <span class="border border-1 p-custom rounded-circle me-2"><i
+                                    class="fa-brands fa-facebook-f social"></i></span>
+
+                            <span class="border border-1 p-custom rounded-circle me-2"><i
+                                    class="fa-brands fa-google-plus-g social"></i></span>
+
+                            <span class="border border-1 p-custom rounded-circle me-2"><i
+                                    class="fa-brands fa-twitter social"></i></span>
+
+                            <span class="border border-1 p-custom rounded-circle"><i
+                                    class="fa-brands fa-linkedin-in social"></i></span>
+                        </div>
                     </div>
-                    <div class="col gy-3">
-                        <div class="fot-items"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-                            veritatis
-                            tempora ipsum corrupti similique officiis facere voluptatem asperiores quidem optio autem
-                            consequatur nesciunt amet, odio architecto quam libero, dicta aliquid.</div>
+                </div>
+                <div class="col g-4">
+                    <div class="text-center fs-6 my-1">
+                        <p class="text-uppercase">About Freelancer</p>
+                        <p class="fs-custom">Freelance is a free to use, open source Bootstrap create by <a href="#"
+                                class="link-success text-decoration-none fw-bold">Start Botstrap</a>.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="pie-foot text-center py-4">
-            <span">Copiright</span>
+            <span class="fs-custom">Copiright <i class="fa-solid fa-copyright px-1"></i> Your Website 2019</span>
         </div>
     </footer>
 </body>
